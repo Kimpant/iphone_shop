@@ -272,6 +272,11 @@ a {
   margin-bottom: 50px;
 }
 
+@media (max-width: 768px) {
+  .assortment__title {
+    margin-top: 90px;
+  }
+}
 .assortment__list {
   margin-bottom: 150px;
   display: flex;
@@ -280,6 +285,11 @@ a {
   justify-content: center;
 }
 
+@media (max-width: 480px) {
+  .assortment__list {
+    margin-bottom: 100px;
+  }
+}
 .assortment__item {
   border-radius: 53px 53px 30px 30px;
   height: 375px;
@@ -451,7 +461,7 @@ a {
   line-height: 130%;
 }
 
-.footer__item-politics {
+.footer__item-politics p {
   font-size: 14px;
 }
 

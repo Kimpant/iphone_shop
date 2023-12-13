@@ -146,6 +146,7 @@ a {
         box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.8);
         transition-duration: 0.3s;
     }
+
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -219,12 +220,24 @@ a {
     margin-bottom: 50px;
 }
 
+@media(max-width:768px) {
+    .assortment__title {
+        margin-top: 90px;
+    }
+}
+
 .assortment__list {
     margin-bottom: 150px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px 70px;
     justify-content: center;
+}
+
+@media(max-width:480px) {
+    .assortment__list {
+        margin-bottom: 100px;
+    }
 }
 
 .assortment__item {
@@ -403,7 +416,7 @@ a {
 
 }
 
-.footer__item-politics {
+.footer__item-politics p {
     font-size: 14px;
 }
 
@@ -421,6 +434,7 @@ a {
     .footer__item-number img {
         display: block;
     }
+
     .footer__item-number p {
         display: none;
     }
